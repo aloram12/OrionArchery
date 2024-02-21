@@ -12,6 +12,7 @@ body {
 }
 button {
 	background-color: lightblue;
+	font-color:white;
 	text-align:center;
 	text-decoration:none;
 	border:none;
