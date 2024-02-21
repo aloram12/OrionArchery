@@ -108,25 +108,26 @@ nav > ul > li { /*List of buttons made specifically for navigation bar*/
 
 .floatContainer > ul,li{
 	display:disc;
-
-	color:green;
+	/*color:green; // used for testing purposes*/
 }
-
+// The placement of a div inside of the home class 
 .home > div {
 	margin-top:5px;
 	margin-bottom:10px;
 	margin-left:20px;
 	padding:10px;
 }
+// home class with a div inside and positioning of the paragraph text
 .home > div > p {
 	margin-left:30px;
 	/*line-height:;*/
 	font-size:20px;
 }
+// listings used for the navigation bar
 a {
-	color: black;
+	color: white;
 	text-decoration: none;
-	&:hover{background-color: mediumvioletred;}
+	&:hover{background-color: #4169E1;}
 }
 
 .floatContainer{
