@@ -47,6 +47,7 @@ table, td, th {
   width:900px;
 
 }
+
 table {
 	border-collapse:collapse;
 	margin-right:0px;
@@ -56,23 +57,22 @@ table {
 th, td {
   padding: 9px;
 }
-
-table.home{
+table.intro {
 	position:absolute;
+	margin-top:30px;
 	right:10px;
-	border-collapse:collapse;
-	margin-right:0px;
-	padding-right:0px;
-	height:50px ;
-	width:200px;
+	right:30px;
+	width:500px;
+	height:100px;
 }
 
-table.home > th,td {
-	padding:2px;
-	height:25px;
-	width:45px;
-	font-size:10px;
+table.intro td,th{
+	border-collapse:collapse;
+	font-size:15px;
+
 }
+
+
 .home {
 	background-color:white;
 	margin-top:0px;
